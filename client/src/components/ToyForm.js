@@ -20,7 +20,6 @@ function ToyForm({ onAddToy }) {
       ...formData,
       likes: 0,
     };
-
     fetch("/toys", {
       method: "POST",
       headers: {
